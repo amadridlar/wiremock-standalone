@@ -15,3 +15,35 @@ Ver comandos que se pueden utilizar en el inicio
 ```
 java -jar wiremock-standalone-version.jar -help
 ```
+
+### Configurar peticiones
+/mappings -> archivos de configuración de peticiones
+
+/__files -> archivos de configuración de respuestas
+
+#### Ejemplo de configuración
+#### /mappings/routeJSON.json
+
+```json
+{
+	"request":{
+		"method":"GET",
+		"url":"/routejson"
+	},
+	"response":{
+		"status":200,
+		"bodyFileName":"routeResponse.json"
+	}
+}
+```
+#### /__files/routeResponse.json
+```json
+{
+	"name":"Johny",
+	"lastName":"Reland",
+	"favourites":{
+		"beer":"Jacobsen",
+		"whiskey":"JohnCor"
+	}
+}
+```
