@@ -22,7 +22,7 @@ java -jar wiremock-standalone-version.jar -help
 /__files -> archivos de configuración de respuestas
 
 #### Ejemplo de configuración
-#### /mappings/routeJSON.json
+##### /mappings/routeJSON.json
 
 ```json
 {
@@ -36,7 +36,7 @@ java -jar wiremock-standalone-version.jar -help
 	}
 }
 ```
-#### /__files/routeResponse.json
+##### /__files/routeResponse.json
 ```json
 {
 	"name":"Johny",
