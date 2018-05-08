@@ -1,0 +1,10 @@
+{
+	"request":{
+		"method":"GET",
+		"url":"/routexml"
+	},
+	"response":{
+		"status":200,
+		"bodyFileName":"routeResponse.xml"
+	}
+}

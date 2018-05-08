@@ -1,0 +1,10 @@
+{
+	"request":{
+		"method":"GET",
+		"url":"/routejson"
+	},
+	"response":{
+		"status":200,
+		"bodyFileName":"routeResponse.json"
+	}
+}
