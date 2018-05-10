@@ -47,3 +47,10 @@ java -jar wiremock-standalone-version.jar -help
 	}
 }
 ```
+
+## Iniciar contenedor
+Desde la ruta del Dockerfile ejecutar
+
+```shel
+sudo docker run -t wiremock-standlone .
+```
