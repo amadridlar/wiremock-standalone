@@ -5,11 +5,11 @@ http://repo1.maven.org/maven2/com/github/tomakehurst/wiremock-standalone/
 
 ### Iniciar servicio wiremock
 ```shell
-java -jar wiremock-standalone-version.jar 
+java -jar wiremock-standalone-<version>.jar 
 ```
 Por defecto se levanta en el puerto 8080. Si queremos indicarle el puerto en el que se inicie.
 ```shell
-java -jar wiremock-standalone-version.jar --port 8081
+java -jar wiremock-standalone-<version>.jar --port 8081
 ```
 Ver comandos que se pueden utilizar en el inicio
 ```
