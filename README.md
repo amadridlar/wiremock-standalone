@@ -49,6 +49,8 @@ java -jar wiremock-standalone-version.jar -help
 ```
 
 ## Iniciar contenedor
+Configurar previamente los ficheros de los directorios `__files` y `mappings`
+
 Desde la ruta del Dockerfile ejecutar
 
 ```shel
