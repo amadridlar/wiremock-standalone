@@ -14,7 +14,7 @@ Por defecto se levanta en el puerto 8080. Si queremos indicarle el puerto en el 
 java -jar wiremock-standalone-<version>.jar --port 8081
 ```
 Ver comandos que se pueden utilizar en el inicio
-```
+```shell
 java -jar wiremock-standalone-<version>.jar -help
 ```
 
