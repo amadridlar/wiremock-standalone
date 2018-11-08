@@ -15,7 +15,7 @@ java -jar wiremock-standalone-<version>.jar --port 8081
 ```
 Ver comandos que se pueden utilizar en el inicio
 ```
-java -jar wiremock-standalone-version.jar -help
+java -jar wiremock-standalone-<version>.jar -help
 ```
 
 ### Configurar peticiones
